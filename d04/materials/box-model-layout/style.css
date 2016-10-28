@@ -1,0 +1,49 @@
+.graybox {
+	background-color: #CCCCCC;
+	margin: auto;
+	padding: 10px;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+.blackbox {
+	background-color: black;
+	color: white;
+	margin: 10px;
+	margin-bottom: 25px;
+	padding: 10px;
+	height: 20px;
+}
+
+.orangebox1 {
+
+	background-color: #F16D36;
+	color: blue;
+	margin: 10px;
+	padding: 20px;
+	height: 50px;
+}
+
+.orangebox2 {
+
+	background-color: #F16D36;
+	color: green;
+	margin: 10px;
+	padding: 20px;
+	height: 50px;
+}
+
+.orangebox3 {
+
+	background-color: #F16D36;
+	color: yellow;
+	margin: 10px;
+	padding: 20px;
+	height: 50px;
+}
+
+.inline-white-box {
+	display: inline-block;
+}
+
