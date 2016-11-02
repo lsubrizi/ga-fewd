@@ -1,0 +1,40 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 960px;
+  border: dashed;
+  line-height: 0;
+
+}
+
+.red-box {
+  height: 130px;
+  width: 470px;
+  background-color: #CA3C00;
+  margin: 5px;
+  padding: 0;
+  display: inline-block;
+  border-width: 0;
+}
+
+.box2 {
+  height: 130px;
+  width: 50%;
+  background-color: #91BD34;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  border-width: 0;
+}
+
+.eighties {
+	color: #CA3C00;
+	padding: 5px;
+}
+
+.later {
+  color: #91BD34;
+  padding: 5px;
+}

@@ -1,0 +1,23 @@
+body {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+}
+
+.nav {
+	background-color: black;
+	line-height: 0px;
+	margin: 0;
+	border-width: 0;
+}
+
+.nav-links {
+	display: inline-block;
+	padding: 40px 10px;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+.nav-links:hover {
+	color: #FFFFFF;
+	background-color: #FF7401;
+}
