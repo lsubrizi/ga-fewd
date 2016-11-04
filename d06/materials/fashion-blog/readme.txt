@@ -2,11 +2,6 @@ Complete the fashion blog from the attached screenshot. Take a look at the copy.
 
 Some values you will also need:
 
-Content:
-    720px wide
-    54px of padding
-    solid, left, 6px, border, #dddddd
-
 High-level text properties:
     #444444
     "Lato" font
@@ -27,7 +22,7 @@ Navigation links:
 Navigation links hover:
     black
 
-Date: 
+Date:
     #cccccc
 
 Article Title

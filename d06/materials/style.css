@@ -1,0 +1,19 @@
+h1 {
+	color: red;
+}
+
+h1 + P {
+	font-weight: bold;
+}
+
+tr > td {
+	background-color: red;
+}
+
+table td {
+	background-color: red;
+}
+
+li:first-child {
+	color: blue;
+}
