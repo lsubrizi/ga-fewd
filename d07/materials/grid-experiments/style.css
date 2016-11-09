@@ -1,0 +1,11 @@
+.grey-box {
+	background-color: grey;
+	border: 1px solid black;
+	height: 100px;
+}
+
+.grey-box-middle {
+  background-color: grey;
+  border: 1px solid black;
+  height: 400px;
+}
