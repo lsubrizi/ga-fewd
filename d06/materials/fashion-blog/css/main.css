@@ -7,9 +7,8 @@ body {
 #title {
 	color: #DD0000;
 	margin: 0;
-	font-size: ;
+	font-size: 38px;
 	font-weight: 100;
-
 }
 
 h2, h3 {
@@ -68,6 +67,10 @@ a:hover {
 	margin-bottom: 10px;
 }
 
+.see-more a {
+	font-weight: bold;
+}
+
 .bottom-nav {
 	display: inline-block;
 	margin: 20px, 0;
@@ -78,7 +81,6 @@ a:hover {
 .bottom-nav:last-child {
 	border-right: none;
 }
-
 
 .copyright {
 	color: #BBBBBB;
