@@ -1,13 +1,6 @@
-/*
-// FONT FAMILY HELPERS :)
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Merriweather', serif;
-// font-family: 'Source Sans Pro', sans-serif;
-*/
-
 body {
 	font-family: "Source Sans Pro", sans-serif;
-	background-color: #C6C6C6;
+	background-color: #e3e3e3;
 }
 
 header {
@@ -35,15 +28,19 @@ header nav a {
 	display: inline-block;
 }
 
+header nav a:hover {
+	color: yellow;
+}
+
 h2 {
-	font-weight: bold;
+	font-family: "Merriweather", serif;
 }
 
 .tagline {
-	background-color: #C6C6C6;
 	font-family: "Merriweather", serif;
 	text-align: center;
 	font-style: italic;
+	background-color: #C6C6C6;
 	margin: 0;
 	padding: 20px;
 }
@@ -58,18 +55,17 @@ h2 {
 }
 
 .image {
-	max-width: 100%;
-    height: auto;
-    width: 100%;
     background: url('../img/coworking.jpg');
     background-position: 100%;
     background-size: cover;
 }
 
 .profile {
-	background: rgba(237, 237, 237, 0.4);
+	background: rgba(237, 237, 237, 0.6);
 	padding: 20px;
-	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 1px 1px #808080;
 }
 
 .profile-button {
@@ -83,12 +79,22 @@ h2 {
 
 }
 
+.profile-button:hover {
+	background-color: white;
+}
+
+.empty {
+	background: rgba(0, 0, 0, 0);
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	opacity: 0;
+}
+
 .action {
 	background-color: #ededed;
 	padding: 20px;
 	border-right: 1px solid #C6C6C6;
 	margin: 0;
-	display: inline-block;
 }
 
 .action:last-child {
@@ -103,6 +109,10 @@ h2 {
 	text-align: center;
 	box-shadow: 0 5px 5px -3px #808080;
 	border-radius: 4px;
+}
+
+.action-button:hover {
+	background-color: yellow;
 }
 
 .footer {
