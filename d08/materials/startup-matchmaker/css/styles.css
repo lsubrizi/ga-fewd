@@ -11,7 +11,7 @@ header {
 header h1 {
 	color: yellow;
 	font-family: 'Merriweather', serif;
-	padding-left: 15px;
+	padding-left: 30px;
 	font-size: 28px;
 }
 
@@ -23,8 +23,8 @@ header nav {
 header nav a {
 	color: white;
 	font-family: 'Oswald', sans-serif;
-	text-decoration: none;
 	padding: 0 5px;
+	text-decoration: none;
 	display: inline-block;
 }
 
@@ -42,7 +42,7 @@ h2 {
 	font-style: italic;
 	background-color: #C6C6C6;
 	margin: 0;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 #taste {
