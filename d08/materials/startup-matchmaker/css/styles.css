@@ -83,17 +83,9 @@ h2 {
 	background-color: white;
 }
 
-.empty {
-	background: rgba(0, 0, 0, 0);
-	margin-bottom: 20px;
-	box-sizing: border-box;
-	opacity: 0;
-}
-
 .action-container {
 	background-color: #ededed;
-	padding-top: 20px;
-	padding-left: 0;
+	padding: 20px;
 }
 
 .action {
@@ -104,7 +96,7 @@ h2 {
 }
 
 .action:last-child {
-	border-right: 5px solid #808080;
+	border-right: none;
 }
 
 .action-button {
@@ -125,7 +117,21 @@ h2 {
 	background-color: black;
 	color: white;
 	margin: 0;
-	padding-top: 30px;
 	padding: 20px;
 } 
+
+@media (max-width: 767px) {
+  header nav {
+    padding: 0;
+    text-align: center;
+  }
+
+  .action {
+  	border-right: none;
+    border-bottom: 1px solid #C6C6C6;
+  }
+
+  .action:last-child {
+  	border-bottom: none;
+  }
 
