@@ -41,8 +41,7 @@ h2 {
 	text-align: center;
 	font-style: italic;
 	background-color: #C6C6C6;
-	margin: 0;
-	padding: 20px 0;
+
 }
 
 #taste {
@@ -58,11 +57,12 @@ h2 {
     background: url('../img/coworking.jpg');
     background-position: 100%;
     background-size: cover;
+    padding-right: 20px;
 }
 
 .profile {
-	background: rgba(237, 237, 237, 0.6);
-	padding: 20px;
+	background: rgba(237, 237, 237, 0.7);
+	padding: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	box-shadow: 0 0 1px 1px #808080;
@@ -88,6 +88,12 @@ h2 {
 	margin-bottom: 20px;
 	box-sizing: border-box;
 	opacity: 0;
+}
+
+.action-container {
+	background-color: #ededed;
+	padding-top: 20px;
+	padding-left: 0;
 }
 
 .action {
