@@ -24,3 +24,33 @@ Only move on to this step if you finish the program described above.
 In `bonus-solution.js` write a new program that moves the dwarf through the maze *without* foreknowledge of the maze design. In other words, the dwarf will have to detect impediments and decide which way to turn.
 
 HINT: `g.at(x, y)` will tell you if there is an obstacle at the coordinate you specify...
+
+d.orientation`
+d.x
+d.y
+
+javascript
+
+// OR
+
+var myName = "Jeff";
+
+if (myName === "Rob" || myName === "Jeff") {
+  alert("You are in charge of running FEWD!");
+} else {
+  alert("You are a student!");
+}
+
+
+// AND
+
+var borough = "Manhattan";
+var commuteTime = 30;
+
+if (borough === "Manhattan" && commuteTime > 30) {
+  alert("Maybe you should just live in Brooklyn or Queens...");
+} else {
+  alert("Cool - your spot in Manhattan is pretty commutable.");
+}
+
+See also - http://www.w3schools.com/js/js_comparisons.asp - the section on "Logical Operators"

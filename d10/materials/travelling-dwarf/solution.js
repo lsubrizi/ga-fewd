@@ -9,8 +9,8 @@ while (x < 4) {
 
 d.orient("down");
 
-var y = 0;
 var x = 4;
+var y = 0;
 
 while (y < 16) {
 	d.move();
@@ -19,8 +19,8 @@ while (y < 16) {
 
 d.orient("right");
 
-var y = 16;
 var x = 4;
+var y = 16;
 
 while (x < 10) {
 	d.move();
@@ -29,8 +29,8 @@ while (x < 10) {
 
 d.orient("up");
 
-var y = 16;
 var x = 10;
+var y = 16;
 
 while (y > 5) {
 	d.move();
