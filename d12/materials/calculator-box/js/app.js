@@ -13,50 +13,50 @@
 // - .css()
 
 
-    var count = 0;
+  var count = 0;
 
-    $("#a10").on("click", function(){
+  $("#a10").on("click", function(){
     count = count + 10;
-   	$("#out").text(count);
-   });
+ 	  $("#out").text(count);
+ });
 
-    $("#a20").on("click", function(){
+  $("#a20").on("click", function(){
     count = count + 20;
-   	$("#out").text(count);
-   });
+ 	  $("#out").text(count);
+ });
 
-    $("#a30").on("click", function(){
-   	count = count + 30;
-   	$("#out").text(count);
-   });
+  $("#a30").on("click", function(){
+ 	  count = count + 30;
+ 	  $("#out").text(count);
+ });
 
-    $("#n10").on("click", function(){
-   	count = count - 10;
-   	$("#out").text(count);
-   });
+  $("#n10").on("click", function(){
+ 	  count = count - 10;
+ 	  $("#out").text(count);
+ });
 
-    $("#n20").on("click", function(){
+  $("#n20").on("click", function(){
     count = count - 20;
-   	$("#out").text(count);
-   });
+ 	  $("#out").text(count);
+ });
 
-    $("#n30").on("click", function(){
+  $("#n30").on("click", function(){
     count = count - 30;
-   	$("#out").text(count);
-   });
+ 	  $("#out").text(count);
+ });
 
-   $("#red").on("click", function(){
-   	$("#out").css("background-color", "red");
-   });
+ $("#red").on("click", function(){
+ 	  $("#out").css("background-color", "red");
+ });
 
-    $("#blue").on("click", function(){
-   	$("#out").css("background-color", "blue");
-   });
+  $("#blue").on("click", function(){
+ 	  $("#out").css("background-color", "blue");
+ });
 
-    $("#out").on("click", function(){
-   	$("#out").css("background-color", "white");
-   	$("#out").text(0);
-   });
+  $("#out").on("click", function(){
+ 	  $("#out").css("background-color", "white");
+ 	  $("#out").text(0);
+ });
 
 // SIMPLER WAY 
 // FIRST ADD A CLASS TO THE BOXES, THEN data-number="10" to the html

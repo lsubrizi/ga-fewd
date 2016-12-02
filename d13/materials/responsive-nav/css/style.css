@@ -1,0 +1,58 @@
+header {
+	background-color: black;
+	color: #FFFFFF;
+	position: relative;
+}
+
+header h1 {
+	padding-left: 20px;
+}
+
+.menu {
+	position: absolute;
+	right: 5px;
+	top: 20px;
+	display: none;
+}
+
+header nav {
+	text-align: right;
+	padding: 1.9em 0;
+	display: inline-block;
+}
+
+header nav a {
+	text-align: right;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px;
+}
+
+header nav a:hover {
+	color: #CCCCCC;
+}
+
+.hamburger {
+	height: 5px;
+	width: 30px;
+	margin: 5px;
+	background-color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  header nav {
+    padding: 0;
+    text-align: center;
+  }
+
+ @media (max-width: 767px) {
+	.menu {
+		display: inherit;
+	}
+}
+
+ @media (max-width: 767px) {
+	nav a {
+		display: none;
+	}
+}
