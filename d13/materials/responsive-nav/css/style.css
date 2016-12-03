@@ -1,58 +1,62 @@
 header {
 	background-color: black;
-	color: #FFFFFF;
-	position: relative;
 }
 
-header h1 {
+header h2 {
+	color: #F3F3F3;
 	padding-left: 20px;
-}
-
-.menu {
-	position: absolute;
-	right: 5px;
-	top: 20px;
-	display: none;
-}
-
-header nav {
-	text-align: right;
-	padding: 1.9em 0;
 	display: inline-block;
 }
 
-header nav a {
-	text-align: right;
-	color: #FFFFFF;
-	text-decoration: none;
-	padding: 5px;
+nav {
+  	text-align: right;
 }
 
-header nav a:hover {
-	color: #CCCCCC;
+nav a {
+	color: #F3F3F3;
+  	padding: 1.5em 0;
+  	display: inline-block;
+  	text-decoration: none;
+}
+
+nav a:hover {
+	color: yellow;
+}
+
+.logo {
+	display: relative;
+}
+
+.menu {
+	display: none;
+  	position: absolute;
+  	right: 25px;
+  	padding: 24px 0;
+  	cursor: pointer;
 }
 
 .hamburger {
-	height: 5px;
-	width: 30px;
-	margin: 5px;
-	background-color: #FFFFFF;
+	width: 16px;
+	height: 3px;
+	background-color: white;
+	margin: 3px 0;
 }
 
-@media (max-width: 767px) {
-  header nav {
-    padding: 0;
-    text-align: center;
+@media handheld, only screen and (max-width: 767px) {
+  .menu {
+    display: inline-block;
   }
 
- @media (max-width: 767px) {
-	.menu {
-		display: inherit;
-	}
-}
+  nav {
+    text-align: center;
+    display: none;
+  }
 
- @media (max-width: 767px) {
-	nav a {
-		display: none;
-	}
+  nav.open {
+    display: inherit;
+  }
+
+  nav a {
+    display: block;
+  }
 }
