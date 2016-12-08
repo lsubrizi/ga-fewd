@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>Ideal Image Slider</title>
+    <link rel="stylesheet" href="css/ideal-image-slider.css">
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+    <div id="slider">
+        <img src="img/1.jpg" alt="">
+        <img data-src="img/2.jpg" src="" alt="">
+        <img data-src="img/3.jpg" src="" alt="">
+    </div>
+    <script src="js/ideal-image-slider.js"></script>
+    <!-- Create your slider -->
+    <script>
+    	// without this added script slider will take up the full page by default
+    	var slider = new IdealImageSlider.Slider({
+		    selector: '#slider',
+		    height: 350, // Required but can be set by CSS
+		    interval: 4000
+		});
+		slider.start();
+    </script>
+</body>
+</html>

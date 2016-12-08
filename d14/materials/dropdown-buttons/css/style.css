@@ -23,6 +23,10 @@ button:focus {
 	background-color: #EEEEFE;
 }
 
+.dropdown {
+	font-size: 12px;
+}
+
 menu {
 	border-radius: 2px;
 	border: 1px solid #808080;
