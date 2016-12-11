@@ -9,14 +9,14 @@ header h2 {
 }
 
 nav {
-  	text-align: right;
+  text-align: right;
 }
 
 nav a {
 	color: #F3F3F3;
-  	padding: 1.5em 0;
-  	display: inline-block;
-  	text-decoration: none;
+  padding: 1.5em 0;
+  display: inline-block;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -29,10 +29,10 @@ nav a:hover {
 
 .menu {
 	display: none;
-  	position: absolute;
-  	right: 25px;
-  	padding: 24px 0;
-  	cursor: pointer;
+  position: absolute;
+  right: 25px;
+  padding: 24px 0;
+  cursor: pointer;
 }
 
 .hamburger {

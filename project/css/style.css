@@ -1,0 +1,103 @@
+#carousel-example-generic {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #f3f3f3;
+	color: #343a41;
+	font-family: 'Amatic SC', cursive;
+}
+
+header h1 {
+	font-size: 48px;
+	color: #014e6d;
+	font-weight: 900;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+header nav {
+	text-align: right;
+	padding: 1.9em 0;
+}
+
+nav a {
+	color: #343a41;
+	font-size: 28px;
+	padding: 0 5px;
+	text-decoration: none;
+	display: inline-block;
+	border-right: 2px solid #C6C6C6;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: #014e6d;
+}
+
+nav a:last-child {
+	border-right: none;
+}
+
+.name {
+	display: relative;
+}
+
+.menu {
+	display: none;
+  	position: absolute;
+  	right: 25px;
+  	padding: 24px 0;
+  	cursor: pointer;
+}
+
+.hamburger {
+	width: 20px;
+	height: 4px;
+	background-color: #014e6d;
+	margin: 3px 0;
+}
+
+section {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+section div img {
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+h2 {
+	display: block;
+	padding-bottom: 10px;
+	font-weight: 700;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  .menu {
+    display: inline-block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.open {
+    display: inherit;
+  }
+
+  nav a {
+    display: block;
+    border-right: none;
+    text-align: center;
+  }
+}
