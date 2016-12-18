@@ -3,10 +3,6 @@
 	margin: 0 auto;
 }
 
-#product {
-	max-width: 375px;
-}
-
 .col-1-2 {
 	padding-bottom: 5px;
 }
@@ -22,7 +18,7 @@ header h1 {
 	color: #014e6d;
 	font-weight: 900;
 	display: inline-block;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 header nav {
@@ -52,6 +48,11 @@ nav a:last-child {
 	display: relative;
 }
 
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
 .menu {
 	display: none;
   	position: absolute;
@@ -67,25 +68,53 @@ nav a:last-child {
 	margin: 3px 0;
 }
 
-section {
-	max-width: 1170px;
+section.product img {
+	width: 100%;
 	margin: 0 auto;
+	position: relative;
 }
 
-section div img {
-	max-width: 250px;
-	margin: 0 auto;
+section.product img:hover {
+	box-shadow: 5px 5px 5px #cccccc;
+	opacity: 0.5;
 }
 
-.big-image {
+/*.smallImg {
+	background-color: black;
+}*/
+
+.caption {
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 800;
+	color: #343a41;
+	display: none;
+}
+
+.showCaption {
+	display: inherit;
+}
+
+section.product div {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.selected {
+	margin-right: 20px;
 	max-width: 375px;
 }
 
 article {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 18px;
-	font-weight: 300;
-	margin-left: 20px;
+	font-weight: 700;
+	margin: 5px;
+	margin-bottom: 10px;
+	display: block;
+	color: #343a41;
 }
 
 h2 {
@@ -94,10 +123,28 @@ h2 {
 	font-weight: 700;
 }
 
+.thumb {
+	margin: 5px;
+	height: 150px;
+	width: 113px;
+	cursor: pointer;
+}
+
+figure.selected img {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.thumb:hover {
+	box-shadow: 5px 5px 5px #cccccc;
+}
+
 footer.grid {
 	margin: 30px;
 	padding: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0 auto;
 }
 
 @media handheld, only screen and (max-width: 767px) {

@@ -1,3 +1,4 @@
+
 $("button").on("click", function() {
 	var movie = $("input").val()
 	$.getJSON("http://www.omdbapi.com/?t=" + movie, function(omdbData) {
@@ -10,11 +11,10 @@ $("button").on("click", function() {
 	})
 });
 
-// $("ul").on("click"), function(event) {
-// 	var selected = $(event.target);
-// 	console.log(selected.text());
-// };
-
+// $("ul").on("click", function(event) {
+//   var movieTitle = $(event.target).text();
+//   searchTitle(movieTitle);
+// })
 
 // ## Bonus
 
