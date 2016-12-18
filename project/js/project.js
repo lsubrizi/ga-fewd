@@ -3,12 +3,12 @@ $(".menu").on("click", function() {
 });
 
 $(".smallImg").on("mouseover", function() {
-	var img = $(this);
+	var div = $(this);
   $(".caption").toggleClass("showCaption");
 });
 
 $(".smallImg").on("mouseout", function() {
-	var img = $(this);
+	var div = $(this);
   $(".caption").removeClass("showCaption");
 });
 

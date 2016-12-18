@@ -44,13 +44,14 @@ nav a:last-child {
 	border-right: none;
 }
 
-.name {
-	display: relative;
+h2 {
+	display: block;
+	padding-bottom: 10px;
+	font-weight: 700;
 }
 
-.container {
-	max-width: 1170px;
-	margin: 0 auto;
+.name {
+	display: relative;
 }
 
 .menu {
@@ -68,6 +69,11 @@ nav a:last-child {
 	margin: 3px 0;
 }
 
+section.product div {
+	margin-bottom: 20px;
+	position: relative;
+}
+
 section.product img {
 	width: 100%;
 	margin: 0 auto;
@@ -78,10 +84,6 @@ section.product img:hover {
 	box-shadow: 5px 5px 5px #cccccc;
 	opacity: 0.5;
 }
-
-/*.smallImg {
-	background-color: black;
-}*/
 
 .caption {
 	position: absolute;
@@ -97,14 +99,14 @@ section.product img:hover {
 	display: inherit;
 }
 
-section.product div {
-	margin-bottom: 20px;
-	position: relative;
+.selected {
+	max-width: 375px;
 }
 
-.selected {
-	margin-right: 20px;
-	max-width: 375px;
+figure.selected img {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
 }
 
 article {
@@ -117,12 +119,6 @@ article {
 	color: #343a41;
 }
 
-h2 {
-	display: block;
-	padding-bottom: 10px;
-	font-weight: 700;
-}
-
 .thumb {
 	margin: 5px;
 	height: 150px;
@@ -130,21 +126,20 @@ h2 {
 	cursor: pointer;
 }
 
-figure.selected img {
-	width: 100%;
-	margin: 0 auto;
-	position: relative;
-}
-
 .thumb:hover {
-	box-shadow: 5px 5px 5px #cccccc;
+	box-shadow: 3px 3px 3px #909396;
 }
 
-footer.grid {
-	margin: 30px;
+footer {
 	padding: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
 	margin: 0 auto;
+}
+
+footer span {
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 15px;
 }
 
 @media handheld, only screen and (max-width: 767px) {
