@@ -2,14 +2,10 @@ $(".menu").on("click", function() {
   $("nav").toggleClass("open");
 });
 
-$(".smallImg").on("mouseover", function() {
-	var div = $(this);
-  $(".caption").toggleClass("showCaption");
-});
-
-$(".smallImg").on("mouseout", function() {
-	var div = $(this);
-  $(".caption").removeClass("showCaption");
+$(".smallImg").hover( function() {
+    $(this).find(".caption").fadeIn(300);
+}, function() {
+    $(this).find(".caption").fadeOut(100);
 });
 
 $(".thumb").on("click", function() {
